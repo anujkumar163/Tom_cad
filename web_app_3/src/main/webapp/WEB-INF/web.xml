@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <description></description>
+    <display-name>NewRegistration</display-name>
+    <servlet-name>NewRegistration</servlet-name>
+    <servlet-class>p1.NewRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewRegistration</servlet-name>
+    <url-pattern>/NewRegistration</url-pattern>
+  </servlet-mapping>
+  <display-name>web_app_3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ReadRegistration</display-name>
+    <servlet-name>ReadRegistration</servlet-name>
+    <servlet-class>p1.ReadRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadRegistration</servlet-name>
+    <url-pattern>/ReadRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ReadRegistrations</display-name>
+    <servlet-name>ReadRegistrations</servlet-name>
+    <servlet-class>p1.ReadRegistrations</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadRegistrations</servlet-name>
+    <url-pattern>/ReadRegistrations</url-pattern>
+  </servlet-mapping>
+</web-app>

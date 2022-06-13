@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Delete a record</title>
+</head>
+<body>
+	<form action="delete" method="post">
+	email<input type="text" name="email">
+	<input type="submit" value="save">
+	</form>
+</body>
+</html>

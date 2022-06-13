@@ -1,0 +1,14 @@
+127.0.0.1 - - [28/Mar/2022:19:52:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:19:52:43 +0530] "GET /anuj/update_registration.jsp HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:19:52:44 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [28/Mar/2022:20:32:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:32:47 +0530] "GET /anuj/login.jsp HTTP/1.1" 200 339
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:33:25 +0530] "POST /anuj/login HTTP/1.1" 200 304
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:33:32 +0530] "POST /anuj/register HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:33:45 +0530] "GET /anuj/listall HTTP/1.1" 200 1726
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:33:50 +0530] "GET /anuj/delete?name=anuj HTTP/1.1" 200 1316
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:33:53 +0530] "GET /anuj/update?name=ramSingh&city=nehru%20nagar HTTP/1.1" 500 76907
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:34:00 +0530] "GET /anuj/update?name=abhay&city=rewa HTTP/1.1" 500 76907
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:34:11 +0530] "GET /anuj/delete?name=anuj HTTP/1.1" 200 1316
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:34:47 +0530] "GET /anuj/register?list_register HTTP/1.1" 200 304
+0:0:0:0:0:0:0:1 - - [28/Mar/2022:20:35:14 +0530] "GET /anuj/update HTTP/1.1" 500 76907

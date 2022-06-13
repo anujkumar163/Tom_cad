@@ -1,0 +1,25 @@
+package com.student_app.model;
+
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DAOServiceImpl implements DAOService {
+	
+	private Connection con;
+	private Statement stmnt;
+
+	
+	@Override
+	public void connectDB() {
+		try {
+			Class.forName("com.jdbc.mysql.Driver");
+			con = DriverManager.getConnection("mysql:jdbc://localhost:3306/db_app","root","anujabhay");
+			stmnt = con.createStatement();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

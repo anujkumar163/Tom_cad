@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="com.student_app.model.DAOserviceImp"/>
+    <fullyQualifiedTypeName name="com.mysql.jdbc.Driver"/>
+    <fullyQualifiedTypeName name="com.anuj.model.DAOServiceImp"/>
+    <fullyQualifiedTypeName name="com.anuj.model.DAOServices"/>
+    <fullyQualifiedTypeName name="com.anuj.model.DAOServicesImp"/>
+    <fullyQualifiedTypeName name="com.student_app.model.DAOService"/>
+    <fullyQualifiedTypeName name="com.student_app.model.DAOServiceImp"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="com.mini_practice.model.DAOservice"/>
+    <fullyQualifiedTypeName name="com.mini_practice.model.DAOserviceImp"/>
+    <fullyQualifiedTypeName name="p2.DAOserviceImpl"/>
+    <fullyQualifiedTypeName name="p2.DAOservice"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="model.Add"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.beans.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.student_app.model.DAOServiceImpl"/>
+</qualifiedTypeNameHistroy>

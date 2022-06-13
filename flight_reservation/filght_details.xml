@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flight>
+	<operating-airlines>Air-Asia</operating-airlines>
+	<price>4500</price>
+	<seat>450</seat>
+	<from>Mumbai</from>
+	<to>Banglore</to>
+</flight>

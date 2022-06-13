@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>show all details</h2>
+	<a href="listall">List all</a>
+	<table>
+	<tr>
+	<th></th>
+	<th></th>
+	</tr>
+	
+	<tr>
+	<td></td>
+	<td></td>
+	
+	
+	
+	</tr>
+	</table>
+</body>
+</html>

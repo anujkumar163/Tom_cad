@@ -1,0 +1,11 @@
+package com.student_app.model;
+
+public class DAOServiceImpl implements DAOService {
+
+	@Override
+	public void connectDB() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

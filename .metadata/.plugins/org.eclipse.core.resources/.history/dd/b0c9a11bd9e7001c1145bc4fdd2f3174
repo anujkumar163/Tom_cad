@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add</title>
+</head>
+<body>
+	<h2>Add tow number</h2>
+	<form>
+		number1<input type="text" name="num1">
+		number2<input type="text" name="num2">
+		<input type="submit" value="submit">
+	</form>
+
+</body>
+
+</html>

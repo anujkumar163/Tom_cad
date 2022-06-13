@@ -1,0 +1,39 @@
+package com.student_app.model;
+
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+public class DAOServiceImpl implements DAOService {
+	
+	private Connection con;
+	private Statement stmnt;
+
+	
+	@Override
+	public void connectDB() {
+		try {
+			Class.forName("com.jdbc.mysql.Driver");
+			con = DriverManager.getConnection("mysql:jdbc://localhost:3306/db_app","root","anujabhay");
+			stmnt = con.createStatement();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+
+	@Override
+	public boolean verifyCredentials(String email, String password) {
+		try {
+			ResultSet result = stmnt.executeQuery("select * from login where email='"+email+"' and password='"+password+"'");
+			return result.next();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+
+}

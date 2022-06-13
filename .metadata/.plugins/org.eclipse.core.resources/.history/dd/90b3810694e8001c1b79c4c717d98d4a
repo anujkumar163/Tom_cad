@@ -1,0 +1,7 @@
+package com.student_app.model;
+
+public interface DAOService {
+	public void connectDB();
+
+	public void verifyCredentials(String email, String password);
+}
